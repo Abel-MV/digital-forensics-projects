@@ -20,7 +20,7 @@ Each project includes the investigation process, tools used, findings, evidence 
 
 | Project | Description | Status |
 |---|---|---|
-| **Network Forensics Investigation — NetSupport RAT** | Analysis of a PCAP to investigate suspicious NetSupport communications, identify the affected host and examine periodic network traffic. | Completed — Publication in progress |
+| [Network Forensics Investigation — NetSupport RAT](network-forensics-netsupport-rat/README.md) | PCAP analysis, suspicious NetSupport communications, host identification and periodic network traffic. | Completed |
 
 ## Network Forensics Investigation — NetSupport RAT
 
@@ -35,6 +35,8 @@ The investigation focused on identifying the Windows host involved, understandin
 **Environment:** Kali Linux  
 **Tools:** Wireshark, TShark, SHA-256 utilities and `awk`  
 **Investigation date:** 6 November 2026
+
+**[View the full investigation and evidence](network-forensics-netsupport-rat/README.md)**
 
 ### Investigation Process
 
@@ -68,7 +70,9 @@ Four screenshots were recorded during the investigation:
 - **E03:** Windows host identification using DHCP.
 - **E04:** Repeated HTTP POST requests to the external server.
 
-The original PCAP will not be redistributed in this repository. The investigation uses a publicly available training exercise, which is linked in the references.
+All four screenshots are available in the [investigation's evidence directory](network-forensics-netsupport-rat/evidence/).
+
+The original PCAP is not redistributed in this repository. The investigation uses a publicly available training exercise, linked in the references.
 
 ## Investigation Approach
 
